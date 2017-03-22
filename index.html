@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet" />
+  <title>Number Guesser</title>
+</head>
+
+<body onload="displayZeroState()">
+  <header>
+    <h1><span id="number">Number</span> <span id="guesser">Guesser</span></h1>
+  </header>
+  <main>
+    <div class="input"><input class="entry" type="text" name="number" placeholder="Enter your guess (between 1-100)" min="1" max="100" /></div>
+    <div class="buttons">
+      <input id="guess" type="button" value="Guess" />
+      <input id="clear" type="button" value="Clear" disabled="true" />
+    </div>
+    <!-- <div class="userState"></div> -->
+    <p class="lastGuess"></p>
+    <div class="prevNumber"></div>
+    <p class="userState"></p>
+    <div class="buttons">
+      <input id="reset" type="button" value="Reset" disabled="true"></div>
+  </main>
+  <script src="/Users/christielynam/Turing/mod1/number-guesser/script.js"></script>
+</body>
+
+</html>
