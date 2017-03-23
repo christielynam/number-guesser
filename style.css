@@ -29,7 +29,7 @@ h1 {
 }
 
 .entry {
-  width: 400px;
+  width: 420px;
   color: #404041;
   border: 2px solid #E6E7E8;
   font-size: 25px;
@@ -56,9 +56,11 @@ h1 {
   margin: 20px;}
 #guess:hover {
   background-color: #EB008B;
+  border: 2px solid #EB008B;;
 }
 #clear:hover {
   background-color: #EB008B;
+  border: 2px solid #EB008B;
 }
 #clear:disabled {
   background-color: #D0D2D3;
@@ -93,7 +95,8 @@ h1 {
   border-radius: 25px;
   margin: 20px;}
 #reset:hover {
-  background-color: #EB008B;}
+  background-color: #EB008B;
+border: 2px solid #EB008B;}
 #reset:disabled {
   background-color: #D0D2D3;
   border: 1px solid #D0D2D3;
@@ -129,4 +132,15 @@ h1 {
   border: 1px solid #929497;
   border-radius: 25px;
   margin: 20px;}
+#submit:hover {
+  background-color: #EB008B;
+border: 2px solid #EB008B;}
+#submit:disabled {
+  background-color: #D0D2D3;
+  border: 1px solid #D0D2D3;
+}
+
+.rules {
+  text-align: center;
+  color: #404041;
 }
