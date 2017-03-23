@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   background-color: #404041;
   margin: 0 auto;
@@ -29,10 +29,10 @@ h1 {
 }
 
 .entry {
-  width: 500px;
+  width: 400px;
   color: #404041;
   border: 2px solid #E6E7E8;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: inherit;
   padding: 5px;
 
@@ -41,13 +41,13 @@ h1 {
 .buttons {
   text-align: center;
   border-radius: 20%;
-  padding: 50px;
+  padding: 25px;
 }
 
 #guess,
 #clear {
-  width: 250px;
-  font-size: 35px;
+  width: 200px;
+  font-size: 25px;
   font-weight: 300;
   background-color: #929497;
   color: #FFFFFF;
@@ -67,24 +67,24 @@ h1 {
 
 .lastGuess {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: #404041;
 }
 
 .prevNumber {
-  font-size: 300px;
+  font-size: 200px;
   color: #EB008B;
   text-align: center;
 }
 
 .userState {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: #404041;
 }
 
 #reset {
-  width: 500px;
+  width: 400px;
   font-size: 25px;
   font-weight: 300;
   background-color: #929497;
@@ -97,4 +97,36 @@ h1 {
 #reset:disabled {
   background-color: #D0D2D3;
   border: 1px solid #D0D2D3;
+}
+
+.customize {
+  text-align: center;
+  font-size: 25px;
+  color: #404041;
+  font-weight: 300;
+}
+
+.range {
+  text-align: center;
+  margin: 10px;
+}
+
+#min,
+#max {
+  width: 150px;
+  font-size: 25px;
+  border: 2px solid #E6E7E8;
+  font-weight: inherit;
+  padding: 5px;
+}
+
+#submit {
+  width: 200px;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: #929497;
+  color: #FFFFFF;
+  border: 1px solid #929497;
+  border-radius: 25px;
+  margin: 20px;}
 }
